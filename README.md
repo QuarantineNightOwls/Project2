@@ -1,23 +1,21 @@
 # Project2
-UCLA Fullstack Bootcamp - Project 2
+UCLA Fullstack Web Development Bootcamp - Project 2
 
-### Project Requirements
+# QUARANTINE COFFEE (your virtual coffee shop for 2020)
 
+## MAIN FUNCTIONS
 
-* Use a Node and Express Web Server;
+* GoodReads user-owned book 'shelf' where they can show what they are reading, update their reading wishlist, share book links with other 'customers' and read reviews of books.
 
-* Be backed by a MySQL Database an ORM (not necessarily Sequelize);
+* A menu for ordering virtual coffee drinks
 
-* Have both GET and POST routes for retrieving and adding new data;
+* A chat program to chat with other 'customers' at the coffee shop.
 
-* Be deployed using Heroku (with Data);
+## ADD-ONS
+* Chat user status should be 'updateable' with what they are reading, or what coffee drink they ordered
 
-* Utilize at least one new library, package, or technology that we haven’t discussed;
+* Live-stream of a coffee shop. Then a rolling feed of live streams from coffee shops around the world.
 
-* Have a polished frontend / UI;
+* A coffee shop free bookshelf where customers can select and read free/public domain ebooks within the site
 
-* Have folder structure that meets MVC Paradigm;
-
-* Meet good quality coding standards (indentation, scoping, naming).
-
-* Must not expose sensitive API key information on the server, see [Protecting-API-Keys-In-Node.md](../../../10-nodejs/03-Supplemental/Protecting-API-Keys-In-Node.md)
+* Kindle Instant Book Preview (read book samples from Amazon, and can monetize if they purchase ebooks)
