@@ -1,4 +1,5 @@
 var db = require("../models");
+var rooms = {}
 
 module.exports = function(app) {
   // Load index page
@@ -19,6 +20,15 @@ module.exports = function(app) {
       });
     });
   });
+  
+app.get("/chat", (req, res) => {
+  res.render("chat",{rooms: rooms})
+})
+
+app.get("/:room", (res, req) =>{
+  res.render("room", {roomName: req.params.room})
+})
+
 
   // Render 404 page for any unmatched routes
   app.get("*", function(req, res) {
