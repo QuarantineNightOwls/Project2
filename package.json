@@ -1,10 +1,10 @@
 {
-  "name": "Project2",
+  "name": "Quarantine-Coffee",
   "version": "1.0.0",
   "description": "Project 2 Starter",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
     "lint": "eslint --quiet .",
     "fix": "eslint --fix .",
     "test": "npm run lint && cross-env NODE_ENV=test mocha -u tdd --reporter spec --exit"
@@ -12,12 +12,15 @@
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.0",
+    "cryptr": "^6.0.2",
     "dotenv": "^8.2.0",
     "express": "^4.17.0",
     "express-flash": "0.0.2",
     "express-handlebars": "^3.1.0",
     "express-session": "^1.17.1",
+    "jsonwebtoken": "^8.5.1",
     "method-override": "^3.0.0",
+    "mysql": "^2.18.1",
     "mysql2": "^1.6.5",
     "passport": "^0.4.1",
     "passport-google-oauth20": "^2.0.0",
