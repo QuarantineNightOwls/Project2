@@ -1,4 +1,5 @@
 var db = require("../models");
+var rooms = {}
 
 module.exports = function(app) {
   // Load index page
@@ -19,6 +20,36 @@ module.exports = function(app) {
       });
     });
   });
+  
+app.get("/chat", (req, res) => {
+  res.render("chat",{rooms: rooms})
+});
+
+app.get("/register", function (req, res) {  
+  res.render("register")
+});
+
+app.get("/signin", function (req, res) {  
+  res.render("signin")
+});
+
+app.get("/books", function (req, res) {  
+  res.render("books")
+});
+
+app.get("/menu", function (req, res) {  
+  res.render("menu")
+});
+
+
+app.get("/incorrect", function (req, res) {  
+  res.render("incorrect")
+});
+
+app.get("/emailNotExist", function (req, res) {  
+  res.render("emailNotExist")
+});
+
 
   // Render 404 page for any unmatched routes
   app.get("*", function(req, res) {
