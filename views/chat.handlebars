@@ -1,31 +1,47 @@
 
-<div id="message-container"></div>
-<form id="send-container">
-  <input type="text" id="message-input">
-  <button type="submit" id="send-button">Send</button>
-</form>
+<body class="chatBody">
+<div class="container">
+  <nav>
+      <ul class="nav-flex-row">
+        <li class="nav-item">
+          <a href="/">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="/menu">Coffee Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="/books">Read Books</a>
+        </li>
+        <li class="nav-item">
+          <a href="/signin">Live Chat & Music</a>
+        </li>
+      </ul>
+    </nav>
+  <br><br>
 
+ <div class="musicDiv col-lg-12 col-md-12  mt-5">
+  <h1><strong>Welcome to Live Chat & Music !!</strong></h1>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/fEvM-OUbaKs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"></iframe>
+</div>
+
+<div class="row">
+<div class="messageBox col-lg-9 col-md-9 col-sm-6 mt-4  ml-auto">
+<div id="message-container" class="col-lg-9 col-md-9 col-sm-6 mt-4"></div>
+</div>
+
+<div class="sendBox col-lg-9 col-md-9  mt-4  ml-auto">
+<form id="send-container">
+    <textarea class="form-control" type="text" id="message-input" placeholder="Type your message...."></textarea>
+ <button type="submit" class="btn btn-primary" id="send-button"><i class="fa fa-paper-plane-o" aria-hidden="true"></i> Send</button>
+</div>
+</div>
+ </form>
+</div>
+</div>
+<!-- -->
+
+
+</body>
 <!-- Socket.io -->
   <script src="http://localhost:3300/socket.io/socket.io.js"></script>
   <script  src="/js/chat.js"></script>
-
-<div class="container" id="chat">
-  <div class="row">
-    <div class="col-8 offset-2">
-      <div class="card mt-4">
-        <div class="card-body">
-          <h5 class="card-title">Example</h5>
-          <p>
-            <strong>ID</strong>: {{example.id}}</p>
-          <p>
-          <p>
-            <strong>Text</strong>: {{example.text}}</p>
-          <p>
-            <strong>Description:</strong> {{example.description}}</p>
-            <a href="/">← Back To Home</a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
