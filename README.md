@@ -6,8 +6,8 @@ What is a virtual coffee shop? With coffee shops and gathering places closing ac
 Click <a href="https://quarantine-coffee.herokuapp.com/">here</a> to start!
 
 ## Screen Shots
-![screenshoot](public/assets/img/screenshot1.png)
-![screenshoot](public/assets/img/screenshot2.png)
+![screenshoot](public/img/screenshot1.png)
+![screenshoot](public/img/screenshot2.png)
 
 ## Technologies used
 - Node.js
