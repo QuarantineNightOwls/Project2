@@ -1,13 +1,229 @@
-<div id="menu">
-  <div class="container">
-    <div class="row">
-      <div class="col-8 offset-2">
-       
-        </ul>
-      </div>
+<div class="container">
+<nav>
+      <ul class="nav-flex-row">
+        <li class="nav-item">
+          <a href="/">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a href="/menu">Coffee Menu</a>
+        </li>
+        <li class="nav-item">
+          <a href="/books">Read Books</a>
+        </li>
+        <li class="nav-item">
+          <a href="/signin">Live Chat & Music</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="jumbotron">
+        <h1>Quarantine Coffee</h1>
+        <p>Quarantine Coffee Cafe</p>
+        <br>
+        <h2>Customize your Latte</h2>
     </div>
+    <div class="row">
+        <div class="col-sm-6">
+
+  <div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DRINK TYPE
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+
+      <li class="dropdown-submenu">
+      <a class="test" tabindex="-1" href="#">Hot Coffee <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+
+          <li class="dropdown-submenu">
+          <a class="test" href="#">Brewed <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><button class="button" drink-type="coffee"><a href="JavaScript:newPopup('brewed.html');">Breakfast Blend</a></button></li>
+            <li><button class="button" drink-type="coffee"><a href="JavaScript:newPopup('brewed.html');">100% Colombian</a></button></li>
+            <li><button class="button" drink-type="coffee"><a href="JavaScript:newPopup('brewed.html');">Light French Roast</a></button></li>
+            <li><button class="button" drink-type="coffee">Dark French Roast</button></li>
+            <li><button class="button" drink-type="coffee">Italian Roast</button></li>
+            <li><button class="button" drink-type="coffee">Viennese</button></li>
+            <li><button class="button" drink-type="coffee">Hazelnut Mocha Blend</button></li>
+            <li><button class="button" drink-type="coffee">Vanilla Mocha Blend</button></li>
+          </ul>
+          </li>
+
+          <li class="dropdown-submenu">
+          <a class="test" href="#">Latte <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><button class="button" drink-type="latte"><a href="JavaScript:newPopup('latte.html');">Almond Mocha Latte</a></button></li>
+            <li><button class="button" drink-type="latte">Kreme De Kona Latte</button></li>
+            <li><button class="button" drink-type="latte">Caramel Vanilla Latte</button></li>
+            <li><button class="button" drink-type="latte">Nutty Irishman Latte</button></li>
+            <li><button class="button" drink-type="latte">Snickers Latte</button></li>
+            <li><button class="button" drink-type="latte">White Chocolate Raspberry Latte</button></li>
+            <li><button class="button" drink-type="latte">Dark Chocolate & Banana Latte</button></li>
+            <li><button class="button" drink-type="latte">Cafe con Miel</button></li>
+          </ul>
+          </li>
+          
+          <li class="dropdown-submenu">
+          <a class="test" href="#">Cappuccino <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><button class="button" drink-type="coffee">Cappuccino</button></li>
+            <li><button class="button" drink-type="coffee">Double Cappuccino</button></li>
+            <li><button class="button" drink-type="coffee">Caramel Cappuccino</button></li>
+          </ul>
+          </li>
+
+          <li class="dropdown-submenu">
+          <a class="test" href="#">Espresso <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><button class="button" drink-type="espresso"><a href="JavaScript:newPopup('latte.html');">Americano</a></button></li>
+            <li><button class="button" drink-type="espresso">Cubano</button></li>
+            <li><button class="button" drink-type="espresso">Italiano</button></li>
+            <li><button class="button" drink-type="espresso">Espresso Macchiato</button></li>
+            <li><button class="button" drink-type="espresso">Caramel Macchiato</button></li>
+          </ul>
+          </li>
+
+          <li class="dropdown-submenu">
+          <a class="test" href="#">Mocha <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><button class="button" drink-type="mocha">Mochaccino</button></li>
+            <li><button class="button" drink-type="mocha">White Chocolate Mocha</button></li>
+            <li><button class="button" drink-type="mocha">Hazelnut Mocha</button></li>
+            <li><button class="button" drink-type="mocha">Salted Caramel Mocha</button></li>
+            <li><button class="button" drink-type="mocha">Peppermint Mocha</button></li>
+            <li><button class="button" drink-type="mocha">Hazelnut Mocha</button></li>
+          </ul>
+          </li>
+
+        </ul>
+      </li>
+
+      <li class="dropdown-submenu">
+      <a class="test" tabindex="-1" href="#">Iced Coffee <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><button class="button" drink-type="icedCoffee">Iced Vanilla Latte</button></li>
+          <li><button class="button" drink-type="icedCoffee">Espresso Freddo</button></li>
+          <li><button class="button" drink-type="icedCoffee">Freddo Cappuccino</button></li>
+          <li><button class="button" drink-type="icedCoffee">Iced Americano</button></li>
+          <li><button class="button" drink-type="icedCoffee">Iced Mocha Latte</button></li>
+          <li><button class="button" drink-type="icedCoffee">Iced Caramel Macchiato</button></li>
+          <li><button class="button" drink-type="icedCoffee">Iced Mocha Macchiato</button></li>
+          <li><button class="button" drink-type="icedCoffee">Iced Dark Chocolate Mocha</button></li>
+        </ul>
+      </li>  
+
+      <li class="dropdown-submenu">
+      <a class="test" tabindex="-1" href="#">Hot Tea <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+
+          <li class="dropdown-submenu">
+          <a class="test" href="#">Chai Latte<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><button class="button" drink-type="chaiLatte">Masala Chai Latte</button></li>
+            <li><button class="button" drink-type="chaiLatte">Ginger Chai Latte</button></li>
+            <li><button class="button" drink-type="chaiLatte">Vanilla Chai Latte</button></li>
+            <li><button class="button" drink-type="chaiLatte">Coconut Chai Latte</button></li>
+            <li><button class="button" drink-type="chaiLatte">Dirty Chai Latte</button></li>
+          </ul>
+          </li>
+
+          <li class="dropdown-submenu">
+          <a class="test" href="#">Black Tea<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><button class="button" drink-type="blackTea"> Assam</button></li>
+            <li><button class="button" drink-type="blackTea"> Darjeeling</button></li>
+            <li><button class="button" drink-type="blackTea"> Earl Grey Rose</button></li>
+            <li><button class="button" drink-type="blackTea"> English Breakfast Tea</button></li>
+            <li><button class="button" drink-type="blackTea"> Ginger Peach</button></li>
+            <li><button class="button" drink-type="blackTea"> Lapsang Souchong</button></li>
+            <li><button class="button" drink-type="blackTea"> Raspberry Vanilla</button></li>
+          </ul>
+          </li>
+
+          <li class="dropdown-submenu">
+          <a class="test" href="#">Green Tea <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><button class="button" drink-type="greenTea"> Kashmiri Kahwa</button></li>
+            <li><button class="button" drink-type="greenTea"> Honey Citrus Mint</button></li>
+            <li><button class="button" drink-type="greenTea"> Jasmine Pearl</button></li>
+            <li><button class="button" drink-type="greenTea"> Gunpowder</button></li>
+            <li><button class="button" drink-type="greenTea"> Moroccan Mint</button></li>
+          </ul>
+          </li>
+
+          <li class="dropdown-submenu">
+          <a class="test" href="#">Herbal Tea <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><button class="button" drink-type="herbalTea"> Energizing Lemon</button></li>
+            <li><button class="button" drink-type="herbalTea"> Hibiscus Plum</button></li>
+            <li><button class="button" drink-type="herbalTea"> Lemon Spearmint</button></li>
+            <li><button class="button" drink-type="herbalTea"> Rooibos Chai</button></li>
+            <li><button class="button" drink-type="herbalTea"> Soothing Lavender Chamomile</button></li>
+            <li><button class="button" drink-type="herbalTea"> South African Honeybush</button></li>
+          </ul>
+          </li>
+
+        </ul>
+      </li>
+
+      <li class="dropdown-submenu">
+        <a class="test" tabindex="-1" href="#">Hot Chocolate <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><button class="button" drink-type="hotChocolate">Hot Chocolate</button></li>
+            <li><button class="button" drink-type="hotChocolate">White Hot Chocolate</button></li>
+            <li><button class="button" drink-type="hotChocolate">Mexican Spiced Hot Chocolate</button></li>
+            <li><button class="button" drink-type="hotChocolate">Caramel Hot Chocolate</button></li>
+            <li><button class="button" drink-type="hotChocolate">Cinnamon White Hot Chocolate</button></li>
+            <li><button class="button" drink-type="hotChocolate">Raspberry Hot Chocolate</button></li>
+          </ul>
+        </li>  
+  
+      <li class="dropdown-submenu">
+        <a class="test" tabindex="-1" href="#">Frozen/Blended <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><button class="button" drink-type="frozen">Vanilla Bean Frappé</button></li>
+            <li><button class="button" drink-type="frozen">Caramel Frappé</button></li>
+            <li><button class="button" drink-type="frozen">White Chocolate & Raspberry Frappé</button></li>
+            <li><button class="button" drink-type="frozen">Double Chocolate Chip Frappé</button></li>
+            <li><button class="button" drink-type="frozen">White Chocolate Mocha Frappé</button></li>
+            <li><button class="button" drink-type="frozen">Oreo Cookies & Cream Frappé</button></li>
+            <li><button class="button" drink-type="frozen">Frozen Chai Frappé</button></li>
+            <li><button class="button" drink-type="frozen">Frozen Hot Chocolate</button></li>
+          </ul>
+      </li>  
+
+    </ul>
   </div>
 </div>
 
+        </div>
+
+    </div>
+    <!--endrow -->
+</div>
+
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+
+// Popup window code
+function newPopup(url) {
+	popupWindow = window.open(
+		url,'popUpWindow','height=640,width=360,left=600,top=200,resizable=yes,scrollbars=yes,toolbar=yes,menubar=no,location=no,directories=no,status=yes')
+}
+
+</script>
+
+<!-- Bootstap CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@700&display=swap" rel="stylesheet">
+
+
+<!-- JS -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="/js/index.js"></script>
+<script src="/js/drinks.js"></script>
