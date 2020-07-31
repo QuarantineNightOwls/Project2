@@ -1,35 +1,75 @@
 .dropdown-submenu {
-  position: relative;
-}
-
-.dropdown-submenu .dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -1px;
-}
-
-
-#drink {
     position: relative;
+  }
+  
+  .dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -1px;
+  }
+  
+  .button {
+    background-color: #DEB887;
+    border: none;
+    color: white;
+    padding: 1px 5px;
+    text-align: left;
+    text-decoration: none;
     display: inline-block;
-    border-bottom: 1px dotted black;
-  }
-  
-#desc {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-  
-    /* Position the tooltip */
-    position: absolute;
-    z-index: 1;
-  }
-  
-  #drink:hover #desc {
-    visibility: visible;
+    font-size: 16px;
+    margin: 1px 1px;
+    cursor: pointer;
   }
 
+  .container-fluid {
+    width:              80%;
+    align:      center;
+  }
+
+  .jumbotron {
+    font-family: 'Courgette', cursive;
+    color:                          darkgoldenrod;
+    background-color:               teal;
+    position:                       relative;
+    padding:                        4px;
+}
+
+.row.content {
+    height: 600px;
+}
+
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 600px}
+      
+    /* Set gray background color and 100% height */
+  .sidenav {
+        padding-top: 20px;
+        background-color: ;
+        height: 100%;
+      }
+      
+iframe {
+    width=          80%;
+
+}
+
+#bookpage {
+  font-family: 'Courgette', cursive;
+  font-size: 160%;
+}
+
+      /* Set black background color, white text and some padding */
+      footer {
+        background-color: #555;
+        color: white;
+        padding: 15px;
+      }
+      
+      /* On small screens, set height to 'auto' for sidenav and grid */
+      @media screen and (max-width: 767px) {
+        .sidenav {
+          height: auto;
+          padding: 15px;
+        }
+        .row.content {height:auto;} 
+      }
