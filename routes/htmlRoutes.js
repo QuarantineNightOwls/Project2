@@ -15,8 +15,8 @@ module.exports = function(app) {
     res.render("books")
   });
 // Load chat page
-app.get("/chat", (req, res) => {
-  res.render("chat",{rooms: rooms})
+app.get('/chat', function(req, res){
+  res.render("chat")
 });
 //Load register page
 app.get("/register", function (req, res) {  
